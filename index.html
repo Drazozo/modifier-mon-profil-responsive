@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <h2>Modifier mon profil</h2>
+        </header>
+        <hr>
+        <form action="" id="monFormulaire">
+            <div class="divLastName">
+                <label for="lastName">Nom</label>
+                <input type="text" name="lastName" id="lastName">
+            </div>
+            <div class="divFirstName">
+                <label for="firstName">Prénom</label>
+                <input type="text" name="firstName" id="firstName">
+            </div>
+            <div class="divEmail">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="monemail@demo.fr">
+            </div>
+            <div class="divTel">
+                <label for="tel">Téléphone (mobile)</label>
+                <input type="tel" name="tet" id="tel">
+            </div>
+            <div class="divBio">
+                <label for="bio">Bio</label>
+                <textarea name="bio" id="bio"></textarea>
+            </div>
+            <div class="divAdresse">
+                <label for="adresse">Adresse</label>
+                <input type="text" name="adresse" id="adresse">
+            </div>
+            <div class="divVille">
+                <label for="ville">Ville</label>
+                <input type="text" name="ville" id="ville">
+            </div>
+            <div class="divCP">
+                <label for="cp">Code Postal</label>
+                <input type="number" name="cp" id="cp">
+            </div>
+            <div class="checkbox">
+                <div class="divNews">
+                    <input type="checkbox" id="news" name="news">
+                    <label for="news">Je souhaite recevoir la newsletter</label>
+                </div>
+                <div class="divNewsPro">
+                    <input type="checkbox" id="newsPro" name="newsPro">
+                    <label for="newsPro">Je souhaite recevoir la newsletter des partenaires</label>
+                </div>
+            </div>
+			<div class="Buttons">
+				<button class="Button-save">Enregistrer mes modifications</button>
+        <button class="Button-cancel">Annuler mes modifications</button>
+			</div>
+        </form>
+    </section>
+</body>
+
+</html>
